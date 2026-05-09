@@ -1,7 +1,7 @@
-# [Team Name] — Interpretability — MAIA AISF Hack S26
+# ARK — Interpretability — MAIA AISF Hack S26
 
 ## Research Question
-[One sentence. What did you want to find out?]
+Do LLM models exhibit Illusion of Explanatory Depth (IOED) on mechanistic and complex queries, and can fine-tuning models to align with confidence metrics result in models that perform less IOED?
 
 ## Background
 [Why does this question matter for AI safety? 1-2 paragraphs.]
