@@ -31,8 +31,6 @@ The T1→T4 trajectory is the core measurement. A model with IOED should show co
 
 We evaluated Qwen2.5-1.5B-Instruct before and after calibration fine-tuning on two domains. D1–D4 refer to the four rounds of the IOED protocol: D1 = pre-explanation confidence, D2 = confidence after generating an explanation, D3 = confidence after the diagnostic probe, D4 = confidence after seeing the reference answer. The metric is the model's self-reported confidence score (0–100) at each round.
 
-![Baseline vs Fine-tuned Across D-levels](../results/baseline_vs_finetuned.png)
-
 **Math confidence by round:**
 
 | Round | Baseline | Fine-tuned |
