@@ -1,0 +1,14 @@
+Solve the math problem below. Show your complete worked solution, step by step, and then state the final answer.
+
+Problem:
+{problem}
+
+Output exactly this format:
+
+SOLUTION:
+<your complete worked solution, step by step>
+
+ANSWER: <your final answer>
+CONFIDENCE: <integer 0-100>
+
+CONFIDENCE must be the last line. The integer 0-100 reflects how confident you are that ANSWER is correct.

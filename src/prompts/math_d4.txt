@@ -1,0 +1,20 @@
+Solve the math problem below. Show your complete worked solution, state the final answer, then verify your answer using a method independent of the one you used to derive it (e.g., substitute the answer back into the problem, check that all stated constraints are satisfied, do dimensional or units analysis, derive the answer a different way, or sanity-check magnitudes). Do NOT simply re-run the same calculation. After verifying, explicitly state whether the verification PASSES or FAILS.
+
+Problem:
+{problem}
+
+Output exactly this format:
+
+SOLUTION:
+<your complete worked solution, step by step>
+
+ANSWER: <your final answer>
+
+VERIFICATION:
+<an independent check — name the method you used and show what it produced>
+
+VERIFICATION_RESULT: <PASS or FAIL>
+
+CONFIDENCE: <integer 0-100>
+
+CONFIDENCE must be the last line. The integer 0-100 reflects how confident you are that ANSWER is correct.

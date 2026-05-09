@@ -1,0 +1,12 @@
+Solve the math problem below. Give the final answer and a one-line description of the method you used. Do not show any working.
+
+Problem:
+{problem}
+
+Output exactly this format and nothing else:
+
+ANSWER: <your final answer>
+METHOD: <one short sentence naming the method or key idea>
+CONFIDENCE: <integer 0-100>
+
+CONFIDENCE must be the last line. The integer 0-100 reflects how confident you are that ANSWER is correct.

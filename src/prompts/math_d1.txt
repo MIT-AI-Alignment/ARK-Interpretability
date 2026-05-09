@@ -1,0 +1,11 @@
+Solve the math problem below. Give ONLY the final answer — no method, no working, no explanation.
+
+Problem:
+{problem}
+
+Output exactly this format and nothing else:
+
+ANSWER: <your final answer>
+CONFIDENCE: <integer 0-100>
+
+CONFIDENCE must be the last line. The integer 0-100 reflects how confident you are that ANSWER is correct.
