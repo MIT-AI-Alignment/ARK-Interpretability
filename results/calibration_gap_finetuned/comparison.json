@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "adapter_path": "/workspace/ARK-Interpretability/adapters/qwen25_ioed_calibration",
+    "n_items_per_domain": 10,
+    "datasets": {
+      "mechanism": "/workspace/ARK-Interpretability/notebooks/mechanism_qa.jsonl (first 10 items)",
+      "math":      "/workspace/ARK-Interpretability/data/items/math.jsonl (first 10 items)"
+    },
+    "confidence_extraction": "verbal markers parsed from adapter outputs (CONFIDENCE: N format was ignored by adapter)",
+    "accuracy_grading": "manual 0-100 against reference_answer / correct answer, same methodology as baseline"
+  },
+
+  "math": {
+    "confidence":  {"d1": {"baseline": 95.0, "finetuned": 81.1},
+                    "d2": {"baseline": 96.4, "finetuned": 25.0},
+                    "d3": {"baseline": 87.5, "finetuned": 20.0},
+                    "d4": {"baseline": 83.0, "finetuned": 20.0}},
+    "accuracy":    {"d1": {"baseline": 25.0, "finetuned":  0.0},
+                    "d2": {"baseline": 59.0, "finetuned": 18.0},
+                    "d3": {"baseline": 55.0, "finetuned": 20.0},
+                    "d4": {"baseline": 52.0, "finetuned": 18.0}},
+    "gap_finetuned": {"d1": 81.1, "d2": 7.0, "d3": 0.0, "d4": 2.0},
+    "gap_baseline":  {"d1": 70.0, "d2": 37.4, "d3": 32.5, "d4": 31.0},
+    "gap_delta":     {"d1": -11.1, "d2": 30.4, "d3": 32.5, "d4": 29.0}
+  },
+
+  "mechanism": {
+    "confidence":  {"d1": {"baseline": 95.0, "finetuned": 40.0},
+                    "d2": {"baseline": 95.8, "finetuned": 20.0},
+                    "d3": {"baseline": 96.5, "finetuned": 20.0},
+                    "d4": {"baseline": 91.2, "finetuned": 20.0}},
+    "accuracy":    {"d1": {"baseline": 41.0, "finetuned": 21.0},
+                    "d2": {"baseline": 39.5, "finetuned": 10.0},
+                    "d3": {"baseline": 30.0, "finetuned": 10.0},
+                    "d4": {"baseline": 36.0, "finetuned": 10.0}},
+    "gap_finetuned": {"d1": 19.0, "d2": 10.0, "d3": 10.0, "d4": 10.0},
+    "gap_baseline":  {"d1": 54.0, "d2": 56.3, "d3": 66.5, "d4": 55.2},
+    "gap_delta":     {"d1": 35.0, "d2": 46.3, "d3": 56.5, "d4": 45.2}
+  },
+
+  "source_runs": {
+    "baseline_mechanism": "results/ioed_depth_run_20260509_192232_reparsed.json",
+    "baseline_math":      "results/ioed_math_run_20260509_193344.json",
+    "adapter_mechanism":  "results/adapter_mechanism_run_20260509_200919.json",
+    "adapter_math":       "results/adapter_math_run_20260509_200919.json"
+  }
+}

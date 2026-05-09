@@ -1,0 +1,29 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading base model + adapter...
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  11%|█         | 38/338 [00:00<00:00, 357.21it/s]Loading weights:  36%|███▋      | 123/338 [00:00<00:00, 631.80it/s]Loading weights:  58%|█████▊    | 196/338 [00:00<00:00, 674.52it/s]Loading weights:  83%|████████▎ | 280/338 [00:00<00:00, 733.71it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 702.76it/s]
+Model on: cuda:0; adapter: /workspace/ARK-Interpretability/adapters/qwen25_ioed_calibration
+
+Running mechanism pipeline on 10 items (adapter)...
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:07<01:08,  7.59s/it] 20%|██        | 2/10 [00:14<00:56,  7.08s/it] 30%|███       | 3/10 [00:21<00:49,  7.01s/it] 40%|████      | 4/10 [00:28<00:42,  7.07s/it] 50%|█████     | 5/10 [00:35<00:34,  6.98s/it] 60%|██████    | 6/10 [00:40<00:25,  6.44s/it] 70%|███████   | 7/10 [00:47<00:19,  6.58s/it] 80%|████████  | 8/10 [00:54<00:13,  6.63s/it] 90%|█████████ | 9/10 [00:59<00:06,  6.19s/it]100%|██████████| 10/10 [01:05<00:00,  6.17s/it]100%|██████████| 10/10 [01:05<00:00,  6.56s/it]
+
+Running math pipeline on 10 items (adapter)...
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:06<00:56,  6.28s/it] 20%|██        | 2/10 [00:14<00:58,  7.28s/it] 30%|███       | 3/10 [00:21<00:50,  7.19s/it] 40%|████      | 4/10 [00:26<00:38,  6.49s/it] 50%|█████     | 5/10 [00:33<00:32,  6.55s/it] 60%|██████    | 6/10 [00:39<00:25,  6.38s/it] 70%|███████   | 7/10 [00:44<00:18,  6.06s/it] 80%|████████  | 8/10 [00:51<00:12,  6.35s/it] 90%|█████████ | 9/10 [00:58<00:06,  6.59s/it]100%|██████████| 10/10 [01:04<00:00,  6.30s/it]100%|██████████| 10/10 [01:04<00:00,  6.46s/it]
+
+Saved:
+  adapter_mechanism_run_20260509_200919.json
+  adapter_math_run_20260509_200919.json
+
+=== MECHANISM (adapter) confidence (n=10, valid per depth = {'d1': 0, 'd2': 0, 'd3': 0, 'd4': 0}) ===
+d1    NaN
+d2    NaN
+d3    NaN
+d4    NaN
+
+=== MATH (adapter) confidence (n=10, valid per depth = {'d1': 0, 'd2': 0, 'd3': 0, 'd4': 0}) ===
+d1    NaN
+d2    NaN
+d3    NaN
+d4    NaN
+
+Done.

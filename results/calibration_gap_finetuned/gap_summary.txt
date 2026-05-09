@@ -1,0 +1,19 @@
+Calibration gap (confidence - accuracy) for the LoRA-fine-tuned Qwen2.5-1.5B
+adapter (qwen25_ioed_calibration), evaluated on the same 10 mechanism_qa
+items and 10 math.jsonl items used for the baseline run.
+
+Confidence: parsed from verbal markers in adapter responses.
+Accuracy:   graded 0-100 against reference / correct answer.
+
+MATH fine-tuned:
+d1     +81.1
+d2      +7.0
+d3       0.0
+d4      +2.0
+
+
+MECHANISTIC fine-tuned:
+d1     +19.0
+d2     +10.0
+d3     +10.0
+d4     +10.0

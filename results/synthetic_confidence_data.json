@@ -1,0 +1,1306 @@
+{
+  "metadata": {
+    "synthetic": true,
+    "purpose": "individual confidence rating data generated from observed stage means",
+    "n_trials_per_domain": 80,
+    "noise_sd": 4.0,
+    "distribution": "clipped-normal(mean, sd=4.0) rounded to int, IID across stages",
+    "math_target_means": {
+      "1": 95.0,
+      "2": 96.4,
+      "3": 87.5,
+      "4": 83.0
+    },
+    "mech_target_means": {
+      "1": 95.0,
+      "2": 95.8,
+      "3": 96.5,
+      "4": 91.2
+    },
+    "seed": 42
+  },
+  "math": [
+    {
+      "item_id": "math_synth_000",
+      "domain": "math",
+      "d1_confidence": 97,
+      "d2_confidence": 96,
+      "d3_confidence": 90,
+      "d4_confidence": 89
+    },
+    {
+      "item_id": "math_synth_001",
+      "domain": "math",
+      "d1_confidence": 94,
+      "d2_confidence": 95,
+      "d3_confidence": 94,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_002",
+      "domain": "math",
+      "d1_confidence": 93,
+      "d2_confidence": 99,
+      "d3_confidence": 86,
+      "d4_confidence": 81
+    },
+    {
+      "item_id": "math_synth_003",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 89,
+      "d3_confidence": 81,
+      "d4_confidence": 81
+    },
+    {
+      "item_id": "math_synth_004",
+      "domain": "math",
+      "d1_confidence": 91,
+      "d2_confidence": 98,
+      "d3_confidence": 84,
+      "d4_confidence": 77
+    },
+    {
+      "item_id": "math_synth_005",
+      "domain": "math",
+      "d1_confidence": 100,
+      "d2_confidence": 95,
+      "d3_confidence": 88,
+      "d4_confidence": 77
+    },
+    {
+      "item_id": "math_synth_006",
+      "domain": "math",
+      "d1_confidence": 93,
+      "d2_confidence": 97,
+      "d3_confidence": 83,
+      "d4_confidence": 85
+    },
+    {
+      "item_id": "math_synth_007",
+      "domain": "math",
+      "d1_confidence": 93,
+      "d2_confidence": 95,
+      "d3_confidence": 85,
+      "d4_confidence": 90
+    },
+    {
+      "item_id": "math_synth_008",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 92,
+      "d3_confidence": 91,
+      "d4_confidence": 78
+    },
+    {
+      "item_id": "math_synth_009",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 89,
+      "d3_confidence": 82,
+      "d4_confidence": 84
+    },
+    {
+      "item_id": "math_synth_010",
+      "domain": "math",
+      "d1_confidence": 98,
+      "d2_confidence": 97,
+      "d3_confidence": 87,
+      "d4_confidence": 82
+    },
+    {
+      "item_id": "math_synth_011",
+      "domain": "math",
+      "d1_confidence": 89,
+      "d2_confidence": 94,
+      "d3_confidence": 86,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "math_synth_012",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 89,
+      "d3_confidence": 89,
+      "d4_confidence": 81
+    },
+    {
+      "item_id": "math_synth_013",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 99,
+      "d3_confidence": 92,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "math_synth_014",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 95,
+      "d3_confidence": 89,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "math_synth_015",
+      "domain": "math",
+      "d1_confidence": 93,
+      "d2_confidence": 96,
+      "d3_confidence": 83,
+      "d4_confidence": 78
+    },
+    {
+      "item_id": "math_synth_016",
+      "domain": "math",
+      "d1_confidence": 98,
+      "d2_confidence": 100,
+      "d3_confidence": 87,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "math_synth_017",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 94,
+      "d3_confidence": 89,
+      "d4_confidence": 89
+    },
+    {
+      "item_id": "math_synth_018",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 100,
+      "d3_confidence": 77,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_019",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 95,
+      "d3_confidence": 88,
+      "d4_confidence": 75
+    },
+    {
+      "item_id": "math_synth_020",
+      "domain": "math",
+      "d1_confidence": 94,
+      "d2_confidence": 98,
+      "d3_confidence": 93,
+      "d4_confidence": 81
+    },
+    {
+      "item_id": "math_synth_021",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 94,
+      "d3_confidence": 91,
+      "d4_confidence": 84
+    },
+    {
+      "item_id": "math_synth_022",
+      "domain": "math",
+      "d1_confidence": 93,
+      "d2_confidence": 98,
+      "d3_confidence": 88,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "math_synth_023",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 95,
+      "d3_confidence": 86,
+      "d4_confidence": 77
+    },
+    {
+      "item_id": "math_synth_024",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 97,
+      "d3_confidence": 88,
+      "d4_confidence": 82
+    },
+    {
+      "item_id": "math_synth_025",
+      "domain": "math",
+      "d1_confidence": 89,
+      "d2_confidence": 95,
+      "d3_confidence": 86,
+      "d4_confidence": 80
+    },
+    {
+      "item_id": "math_synth_026",
+      "domain": "math",
+      "d1_confidence": 94,
+      "d2_confidence": 98,
+      "d3_confidence": 95,
+      "d4_confidence": 84
+    },
+    {
+      "item_id": "math_synth_027",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 96,
+      "d3_confidence": 80,
+      "d4_confidence": 83
+    },
+    {
+      "item_id": "math_synth_028",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 100,
+      "d3_confidence": 87,
+      "d4_confidence": 84
+    },
+    {
+      "item_id": "math_synth_029",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 92,
+      "d3_confidence": 92,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_030",
+      "domain": "math",
+      "d1_confidence": 98,
+      "d2_confidence": 93,
+      "d3_confidence": 93,
+      "d4_confidence": 77
+    },
+    {
+      "item_id": "math_synth_031",
+      "domain": "math",
+      "d1_confidence": 97,
+      "d2_confidence": 100,
+      "d3_confidence": 84,
+      "d4_confidence": 81
+    },
+    {
+      "item_id": "math_synth_032",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 94,
+      "d3_confidence": 81,
+      "d4_confidence": 83
+    },
+    {
+      "item_id": "math_synth_033",
+      "domain": "math",
+      "d1_confidence": 91,
+      "d2_confidence": 98,
+      "d3_confidence": 84,
+      "d4_confidence": 89
+    },
+    {
+      "item_id": "math_synth_034",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 95,
+      "d3_confidence": 91,
+      "d4_confidence": 78
+    },
+    {
+      "item_id": "math_synth_035",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 100,
+      "d3_confidence": 81,
+      "d4_confidence": 84
+    },
+    {
+      "item_id": "math_synth_036",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 100,
+      "d3_confidence": 83,
+      "d4_confidence": 78
+    },
+    {
+      "item_id": "math_synth_037",
+      "domain": "math",
+      "d1_confidence": 97,
+      "d2_confidence": 98,
+      "d3_confidence": 89,
+      "d4_confidence": 84
+    },
+    {
+      "item_id": "math_synth_038",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 97,
+      "d3_confidence": 89,
+      "d4_confidence": 80
+    },
+    {
+      "item_id": "math_synth_039",
+      "domain": "math",
+      "d1_confidence": 100,
+      "d2_confidence": 98,
+      "d3_confidence": 83,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_040",
+      "domain": "math",
+      "d1_confidence": 91,
+      "d2_confidence": 100,
+      "d3_confidence": 92,
+      "d4_confidence": 80
+    },
+    {
+      "item_id": "math_synth_041",
+      "domain": "math",
+      "d1_confidence": 99,
+      "d2_confidence": 98,
+      "d3_confidence": 91,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "math_synth_042",
+      "domain": "math",
+      "d1_confidence": 94,
+      "d2_confidence": 93,
+      "d3_confidence": 84,
+      "d4_confidence": 80
+    },
+    {
+      "item_id": "math_synth_043",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 98,
+      "d3_confidence": 89,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_044",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 100,
+      "d3_confidence": 86,
+      "d4_confidence": 94
+    },
+    {
+      "item_id": "math_synth_045",
+      "domain": "math",
+      "d1_confidence": 98,
+      "d2_confidence": 93,
+      "d3_confidence": 83,
+      "d4_confidence": 85
+    },
+    {
+      "item_id": "math_synth_046",
+      "domain": "math",
+      "d1_confidence": 94,
+      "d2_confidence": 99,
+      "d3_confidence": 89,
+      "d4_confidence": 83
+    },
+    {
+      "item_id": "math_synth_047",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 90,
+      "d3_confidence": 86,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_048",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 91,
+      "d3_confidence": 88,
+      "d4_confidence": 85
+    },
+    {
+      "item_id": "math_synth_049",
+      "domain": "math",
+      "d1_confidence": 91,
+      "d2_confidence": 97,
+      "d3_confidence": 88,
+      "d4_confidence": 78
+    },
+    {
+      "item_id": "math_synth_050",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 99,
+      "d3_confidence": 92,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "math_synth_051",
+      "domain": "math",
+      "d1_confidence": 89,
+      "d2_confidence": 93,
+      "d3_confidence": 90,
+      "d4_confidence": 85
+    },
+    {
+      "item_id": "math_synth_052",
+      "domain": "math",
+      "d1_confidence": 97,
+      "d2_confidence": 100,
+      "d3_confidence": 90,
+      "d4_confidence": 88
+    },
+    {
+      "item_id": "math_synth_053",
+      "domain": "math",
+      "d1_confidence": 99,
+      "d2_confidence": 99,
+      "d3_confidence": 86,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_054",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 95,
+      "d3_confidence": 86,
+      "d4_confidence": 83
+    },
+    {
+      "item_id": "math_synth_055",
+      "domain": "math",
+      "d1_confidence": 100,
+      "d2_confidence": 89,
+      "d3_confidence": 90,
+      "d4_confidence": 77
+    },
+    {
+      "item_id": "math_synth_056",
+      "domain": "math",
+      "d1_confidence": 93,
+      "d2_confidence": 100,
+      "d3_confidence": 88,
+      "d4_confidence": 79
+    },
+    {
+      "item_id": "math_synth_057",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 99,
+      "d3_confidence": 85,
+      "d4_confidence": 84
+    },
+    {
+      "item_id": "math_synth_058",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 94,
+      "d3_confidence": 96,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_059",
+      "domain": "math",
+      "d1_confidence": 87,
+      "d2_confidence": 97,
+      "d3_confidence": 85,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_060",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 96,
+      "d3_confidence": 90,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_061",
+      "domain": "math",
+      "d1_confidence": 90,
+      "d2_confidence": 95,
+      "d3_confidence": 86,
+      "d4_confidence": 80
+    },
+    {
+      "item_id": "math_synth_062",
+      "domain": "math",
+      "d1_confidence": 100,
+      "d2_confidence": 98,
+      "d3_confidence": 82,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "math_synth_063",
+      "domain": "math",
+      "d1_confidence": 100,
+      "d2_confidence": 100,
+      "d3_confidence": 81,
+      "d4_confidence": 81
+    },
+    {
+      "item_id": "math_synth_064",
+      "domain": "math",
+      "d1_confidence": 100,
+      "d2_confidence": 94,
+      "d3_confidence": 89,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_065",
+      "domain": "math",
+      "d1_confidence": 91,
+      "d2_confidence": 96,
+      "d3_confidence": 75,
+      "d4_confidence": 79
+    },
+    {
+      "item_id": "math_synth_066",
+      "domain": "math",
+      "d1_confidence": 94,
+      "d2_confidence": 91,
+      "d3_confidence": 94,
+      "d4_confidence": 77
+    },
+    {
+      "item_id": "math_synth_067",
+      "domain": "math",
+      "d1_confidence": 93,
+      "d2_confidence": 97,
+      "d3_confidence": 93,
+      "d4_confidence": 77
+    },
+    {
+      "item_id": "math_synth_068",
+      "domain": "math",
+      "d1_confidence": 100,
+      "d2_confidence": 96,
+      "d3_confidence": 84,
+      "d4_confidence": 85
+    },
+    {
+      "item_id": "math_synth_069",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 94,
+      "d3_confidence": 88,
+      "d4_confidence": 81
+    },
+    {
+      "item_id": "math_synth_070",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 99,
+      "d3_confidence": 94,
+      "d4_confidence": 78
+    },
+    {
+      "item_id": "math_synth_071",
+      "domain": "math",
+      "d1_confidence": 100,
+      "d2_confidence": 89,
+      "d3_confidence": 87,
+      "d4_confidence": 85
+    },
+    {
+      "item_id": "math_synth_072",
+      "domain": "math",
+      "d1_confidence": 96,
+      "d2_confidence": 94,
+      "d3_confidence": 87,
+      "d4_confidence": 81
+    },
+    {
+      "item_id": "math_synth_073",
+      "domain": "math",
+      "d1_confidence": 93,
+      "d2_confidence": 100,
+      "d3_confidence": 89,
+      "d4_confidence": 80
+    },
+    {
+      "item_id": "math_synth_074",
+      "domain": "math",
+      "d1_confidence": 99,
+      "d2_confidence": 98,
+      "d3_confidence": 91,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "math_synth_075",
+      "domain": "math",
+      "d1_confidence": 92,
+      "d2_confidence": 94,
+      "d3_confidence": 90,
+      "d4_confidence": 85
+    },
+    {
+      "item_id": "math_synth_076",
+      "domain": "math",
+      "d1_confidence": 95,
+      "d2_confidence": 97,
+      "d3_confidence": 93,
+      "d4_confidence": 81
+    },
+    {
+      "item_id": "math_synth_077",
+      "domain": "math",
+      "d1_confidence": 97,
+      "d2_confidence": 96,
+      "d3_confidence": 87,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "math_synth_078",
+      "domain": "math",
+      "d1_confidence": 98,
+      "d2_confidence": 100,
+      "d3_confidence": 93,
+      "d4_confidence": 83
+    },
+    {
+      "item_id": "math_synth_079",
+      "domain": "math",
+      "d1_confidence": 98,
+      "d2_confidence": 95,
+      "d3_confidence": 89,
+      "d4_confidence": 82
+    }
+  ],
+  "mechanistic": [
+    {
+      "item_id": "mechanistic_synth_000",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 98,
+      "d3_confidence": 93,
+      "d4_confidence": 100
+    },
+    {
+      "item_id": "mechanistic_synth_001",
+      "domain": "mechanistic",
+      "d1_confidence": 91,
+      "d2_confidence": 91,
+      "d3_confidence": 100,
+      "d4_confidence": 94
+    },
+    {
+      "item_id": "mechanistic_synth_002",
+      "domain": "mechanistic",
+      "d1_confidence": 97,
+      "d2_confidence": 98,
+      "d3_confidence": 96,
+      "d4_confidence": 88
+    },
+    {
+      "item_id": "mechanistic_synth_003",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 93,
+      "d3_confidence": 100,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_004",
+      "domain": "mechanistic",
+      "d1_confidence": 92,
+      "d2_confidence": 95,
+      "d3_confidence": 98,
+      "d4_confidence": 89
+    },
+    {
+      "item_id": "mechanistic_synth_005",
+      "domain": "mechanistic",
+      "d1_confidence": 92,
+      "d2_confidence": 97,
+      "d3_confidence": 97,
+      "d4_confidence": 89
+    },
+    {
+      "item_id": "mechanistic_synth_006",
+      "domain": "mechanistic",
+      "d1_confidence": 93,
+      "d2_confidence": 97,
+      "d3_confidence": 91,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "mechanistic_synth_007",
+      "domain": "mechanistic",
+      "d1_confidence": 92,
+      "d2_confidence": 95,
+      "d3_confidence": 98,
+      "d4_confidence": 97
+    },
+    {
+      "item_id": "mechanistic_synth_008",
+      "domain": "mechanistic",
+      "d1_confidence": 98,
+      "d2_confidence": 95,
+      "d3_confidence": 96,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "mechanistic_synth_009",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 95,
+      "d3_confidence": 98,
+      "d4_confidence": 88
+    },
+    {
+      "item_id": "mechanistic_synth_010",
+      "domain": "mechanistic",
+      "d1_confidence": 97,
+      "d2_confidence": 100,
+      "d3_confidence": 96,
+      "d4_confidence": 93
+    },
+    {
+      "item_id": "mechanistic_synth_011",
+      "domain": "mechanistic",
+      "d1_confidence": 98,
+      "d2_confidence": 94,
+      "d3_confidence": 97,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_012",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 93,
+      "d3_confidence": 97,
+      "d4_confidence": 93
+    },
+    {
+      "item_id": "mechanistic_synth_013",
+      "domain": "mechanistic",
+      "d1_confidence": 100,
+      "d2_confidence": 100,
+      "d3_confidence": 100,
+      "d4_confidence": 88
+    },
+    {
+      "item_id": "mechanistic_synth_014",
+      "domain": "mechanistic",
+      "d1_confidence": 98,
+      "d2_confidence": 97,
+      "d3_confidence": 100,
+      "d4_confidence": 88
+    },
+    {
+      "item_id": "mechanistic_synth_015",
+      "domain": "mechanistic",
+      "d1_confidence": 92,
+      "d2_confidence": 93,
+      "d3_confidence": 88,
+      "d4_confidence": 89
+    },
+    {
+      "item_id": "mechanistic_synth_016",
+      "domain": "mechanistic",
+      "d1_confidence": 92,
+      "d2_confidence": 96,
+      "d3_confidence": 98,
+      "d4_confidence": 99
+    },
+    {
+      "item_id": "mechanistic_synth_017",
+      "domain": "mechanistic",
+      "d1_confidence": 99,
+      "d2_confidence": 93,
+      "d3_confidence": 93,
+      "d4_confidence": 93
+    },
+    {
+      "item_id": "mechanistic_synth_018",
+      "domain": "mechanistic",
+      "d1_confidence": 90,
+      "d2_confidence": 100,
+      "d3_confidence": 100,
+      "d4_confidence": 89
+    },
+    {
+      "item_id": "mechanistic_synth_019",
+      "domain": "mechanistic",
+      "d1_confidence": 88,
+      "d2_confidence": 100,
+      "d3_confidence": 96,
+      "d4_confidence": 96
+    },
+    {
+      "item_id": "mechanistic_synth_020",
+      "domain": "mechanistic",
+      "d1_confidence": 89,
+      "d2_confidence": 93,
+      "d3_confidence": 97,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_021",
+      "domain": "mechanistic",
+      "d1_confidence": 93,
+      "d2_confidence": 98,
+      "d3_confidence": 92,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_022",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 98,
+      "d3_confidence": 99,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "mechanistic_synth_023",
+      "domain": "mechanistic",
+      "d1_confidence": 89,
+      "d2_confidence": 100,
+      "d3_confidence": 98,
+      "d4_confidence": 88
+    },
+    {
+      "item_id": "mechanistic_synth_024",
+      "domain": "mechanistic",
+      "d1_confidence": 100,
+      "d2_confidence": 96,
+      "d3_confidence": 100,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_025",
+      "domain": "mechanistic",
+      "d1_confidence": 100,
+      "d2_confidence": 100,
+      "d3_confidence": 96,
+      "d4_confidence": 95
+    },
+    {
+      "item_id": "mechanistic_synth_026",
+      "domain": "mechanistic",
+      "d1_confidence": 98,
+      "d2_confidence": 100,
+      "d3_confidence": 93,
+      "d4_confidence": 94
+    },
+    {
+      "item_id": "mechanistic_synth_027",
+      "domain": "mechanistic",
+      "d1_confidence": 99,
+      "d2_confidence": 89,
+      "d3_confidence": 92,
+      "d4_confidence": 83
+    },
+    {
+      "item_id": "mechanistic_synth_028",
+      "domain": "mechanistic",
+      "d1_confidence": 94,
+      "d2_confidence": 99,
+      "d3_confidence": 100,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_029",
+      "domain": "mechanistic",
+      "d1_confidence": 100,
+      "d2_confidence": 90,
+      "d3_confidence": 90,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_030",
+      "domain": "mechanistic",
+      "d1_confidence": 97,
+      "d2_confidence": 96,
+      "d3_confidence": 88,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_031",
+      "domain": "mechanistic",
+      "d1_confidence": 90,
+      "d2_confidence": 98,
+      "d3_confidence": 98,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "mechanistic_synth_032",
+      "domain": "mechanistic",
+      "d1_confidence": 93,
+      "d2_confidence": 92,
+      "d3_confidence": 96,
+      "d4_confidence": 95
+    },
+    {
+      "item_id": "mechanistic_synth_033",
+      "domain": "mechanistic",
+      "d1_confidence": 91,
+      "d2_confidence": 98,
+      "d3_confidence": 94,
+      "d4_confidence": 88
+    },
+    {
+      "item_id": "mechanistic_synth_034",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 92,
+      "d3_confidence": 94,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "mechanistic_synth_035",
+      "domain": "mechanistic",
+      "d1_confidence": 100,
+      "d2_confidence": 96,
+      "d3_confidence": 94,
+      "d4_confidence": 92
+    },
+    {
+      "item_id": "mechanistic_synth_036",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 95,
+      "d3_confidence": 99,
+      "d4_confidence": 94
+    },
+    {
+      "item_id": "mechanistic_synth_037",
+      "domain": "mechanistic",
+      "d1_confidence": 93,
+      "d2_confidence": 93,
+      "d3_confidence": 95,
+      "d4_confidence": 82
+    },
+    {
+      "item_id": "mechanistic_synth_038",
+      "domain": "mechanistic",
+      "d1_confidence": 89,
+      "d2_confidence": 100,
+      "d3_confidence": 100,
+      "d4_confidence": 90
+    },
+    {
+      "item_id": "mechanistic_synth_039",
+      "domain": "mechanistic",
+      "d1_confidence": 97,
+      "d2_confidence": 97,
+      "d3_confidence": 100,
+      "d4_confidence": 96
+    },
+    {
+      "item_id": "mechanistic_synth_040",
+      "domain": "mechanistic",
+      "d1_confidence": 94,
+      "d2_confidence": 92,
+      "d3_confidence": 90,
+      "d4_confidence": 92
+    },
+    {
+      "item_id": "mechanistic_synth_041",
+      "domain": "mechanistic",
+      "d1_confidence": 92,
+      "d2_confidence": 90,
+      "d3_confidence": 94,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "mechanistic_synth_042",
+      "domain": "mechanistic",
+      "d1_confidence": 100,
+      "d2_confidence": 99,
+      "d3_confidence": 96,
+      "d4_confidence": 97
+    },
+    {
+      "item_id": "mechanistic_synth_043",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 92,
+      "d3_confidence": 100,
+      "d4_confidence": 93
+    },
+    {
+      "item_id": "mechanistic_synth_044",
+      "domain": "mechanistic",
+      "d1_confidence": 91,
+      "d2_confidence": 95,
+      "d3_confidence": 93,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "mechanistic_synth_045",
+      "domain": "mechanistic",
+      "d1_confidence": 99,
+      "d2_confidence": 100,
+      "d3_confidence": 91,
+      "d4_confidence": 93
+    },
+    {
+      "item_id": "mechanistic_synth_046",
+      "domain": "mechanistic",
+      "d1_confidence": 92,
+      "d2_confidence": 94,
+      "d3_confidence": 94,
+      "d4_confidence": 88
+    },
+    {
+      "item_id": "mechanistic_synth_047",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 92,
+      "d3_confidence": 98,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_048",
+      "domain": "mechanistic",
+      "d1_confidence": 94,
+      "d2_confidence": 92,
+      "d3_confidence": 94,
+      "d4_confidence": 94
+    },
+    {
+      "item_id": "mechanistic_synth_049",
+      "domain": "mechanistic",
+      "d1_confidence": 97,
+      "d2_confidence": 92,
+      "d3_confidence": 97,
+      "d4_confidence": 94
+    },
+    {
+      "item_id": "mechanistic_synth_050",
+      "domain": "mechanistic",
+      "d1_confidence": 88,
+      "d2_confidence": 98,
+      "d3_confidence": 94,
+      "d4_confidence": 93
+    },
+    {
+      "item_id": "mechanistic_synth_051",
+      "domain": "mechanistic",
+      "d1_confidence": 92,
+      "d2_confidence": 89,
+      "d3_confidence": 90,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_052",
+      "domain": "mechanistic",
+      "d1_confidence": 96,
+      "d2_confidence": 92,
+      "d3_confidence": 99,
+      "d4_confidence": 85
+    },
+    {
+      "item_id": "mechanistic_synth_053",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 91,
+      "d3_confidence": 94,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_054",
+      "domain": "mechanistic",
+      "d1_confidence": 92,
+      "d2_confidence": 94,
+      "d3_confidence": 100,
+      "d4_confidence": 89
+    },
+    {
+      "item_id": "mechanistic_synth_055",
+      "domain": "mechanistic",
+      "d1_confidence": 98,
+      "d2_confidence": 91,
+      "d3_confidence": 99,
+      "d4_confidence": 97
+    },
+    {
+      "item_id": "mechanistic_synth_056",
+      "domain": "mechanistic",
+      "d1_confidence": 85,
+      "d2_confidence": 93,
+      "d3_confidence": 99,
+      "d4_confidence": 90
+    },
+    {
+      "item_id": "mechanistic_synth_057",
+      "domain": "mechanistic",
+      "d1_confidence": 96,
+      "d2_confidence": 93,
+      "d3_confidence": 97,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_058",
+      "domain": "mechanistic",
+      "d1_confidence": 100,
+      "d2_confidence": 97,
+      "d3_confidence": 98,
+      "d4_confidence": 90
+    },
+    {
+      "item_id": "mechanistic_synth_059",
+      "domain": "mechanistic",
+      "d1_confidence": 93,
+      "d2_confidence": 94,
+      "d3_confidence": 98,
+      "d4_confidence": 90
+    },
+    {
+      "item_id": "mechanistic_synth_060",
+      "domain": "mechanistic",
+      "d1_confidence": 96,
+      "d2_confidence": 100,
+      "d3_confidence": 100,
+      "d4_confidence": 90
+    },
+    {
+      "item_id": "mechanistic_synth_061",
+      "domain": "mechanistic",
+      "d1_confidence": 100,
+      "d2_confidence": 94,
+      "d3_confidence": 88,
+      "d4_confidence": 87
+    },
+    {
+      "item_id": "mechanistic_synth_062",
+      "domain": "mechanistic",
+      "d1_confidence": 88,
+      "d2_confidence": 94,
+      "d3_confidence": 97,
+      "d4_confidence": 98
+    },
+    {
+      "item_id": "mechanistic_synth_063",
+      "domain": "mechanistic",
+      "d1_confidence": 96,
+      "d2_confidence": 95,
+      "d3_confidence": 100,
+      "d4_confidence": 82
+    },
+    {
+      "item_id": "mechanistic_synth_064",
+      "domain": "mechanistic",
+      "d1_confidence": 96,
+      "d2_confidence": 99,
+      "d3_confidence": 91,
+      "d4_confidence": 96
+    },
+    {
+      "item_id": "mechanistic_synth_065",
+      "domain": "mechanistic",
+      "d1_confidence": 96,
+      "d2_confidence": 94,
+      "d3_confidence": 99,
+      "d4_confidence": 100
+    },
+    {
+      "item_id": "mechanistic_synth_066",
+      "domain": "mechanistic",
+      "d1_confidence": 96,
+      "d2_confidence": 97,
+      "d3_confidence": 95,
+      "d4_confidence": 88
+    },
+    {
+      "item_id": "mechanistic_synth_067",
+      "domain": "mechanistic",
+      "d1_confidence": 98,
+      "d2_confidence": 92,
+      "d3_confidence": 97,
+      "d4_confidence": 89
+    },
+    {
+      "item_id": "mechanistic_synth_068",
+      "domain": "mechanistic",
+      "d1_confidence": 97,
+      "d2_confidence": 97,
+      "d3_confidence": 100,
+      "d4_confidence": 89
+    },
+    {
+      "item_id": "mechanistic_synth_069",
+      "domain": "mechanistic",
+      "d1_confidence": 94,
+      "d2_confidence": 92,
+      "d3_confidence": 95,
+      "d4_confidence": 93
+    },
+    {
+      "item_id": "mechanistic_synth_070",
+      "domain": "mechanistic",
+      "d1_confidence": 98,
+      "d2_confidence": 92,
+      "d3_confidence": 100,
+      "d4_confidence": 97
+    },
+    {
+      "item_id": "mechanistic_synth_071",
+      "domain": "mechanistic",
+      "d1_confidence": 97,
+      "d2_confidence": 100,
+      "d3_confidence": 93,
+      "d4_confidence": 86
+    },
+    {
+      "item_id": "mechanistic_synth_072",
+      "domain": "mechanistic",
+      "d1_confidence": 88,
+      "d2_confidence": 100,
+      "d3_confidence": 99,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_073",
+      "domain": "mechanistic",
+      "d1_confidence": 96,
+      "d2_confidence": 91,
+      "d3_confidence": 100,
+      "d4_confidence": 92
+    },
+    {
+      "item_id": "mechanistic_synth_074",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 99,
+      "d3_confidence": 98,
+      "d4_confidence": 92
+    },
+    {
+      "item_id": "mechanistic_synth_075",
+      "domain": "mechanistic",
+      "d1_confidence": 92,
+      "d2_confidence": 98,
+      "d3_confidence": 100,
+      "d4_confidence": 97
+    },
+    {
+      "item_id": "mechanistic_synth_076",
+      "domain": "mechanistic",
+      "d1_confidence": 100,
+      "d2_confidence": 94,
+      "d3_confidence": 93,
+      "d4_confidence": 91
+    },
+    {
+      "item_id": "mechanistic_synth_077",
+      "domain": "mechanistic",
+      "d1_confidence": 95,
+      "d2_confidence": 100,
+      "d3_confidence": 90,
+      "d4_confidence": 97
+    },
+    {
+      "item_id": "mechanistic_synth_078",
+      "domain": "mechanistic",
+      "d1_confidence": 94,
+      "d2_confidence": 94,
+      "d3_confidence": 92,
+      "d4_confidence": 85
+    },
+    {
+      "item_id": "mechanistic_synth_079",
+      "domain": "mechanistic",
+      "d1_confidence": 98,
+      "d2_confidence": 96,
+      "d3_confidence": 91,
+      "d4_confidence": 86
+    }
+  ]
+}

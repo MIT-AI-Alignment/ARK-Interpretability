@@ -6,3 +6,6 @@ __pycache__/
 dist/
 build/
 .DS_Store
+
+# fine-tuning artifacts (rebuild from scripts/train_ioed_calibration.py)
+adapters/
